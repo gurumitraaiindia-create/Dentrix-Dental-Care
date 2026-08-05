@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dentrix Dental Care — Madurai</title>
+  <meta name="description" content="Premium, spa-like dental care in Madurai. Meet Dr. Gowtham — root canals, dental implants, teeth whitening and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ TOP NAV ============ -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo">Dentrix Dental Care</a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#reviews" class="nav__link">Reviews</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+        <a href="#appointment" class="btn btn--primary btn--nav">Book Appointment</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z" fill="#00478D"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__container">
+        <div class="hero__content">
+          <span class="badge">
+            <img src="assets/icon-badge.svg" alt="" class="badge__icon" />
+            <span>Premium Care in Madurai</span>
+          </span>
+
+          <h1 class="hero__title">Your Smile Deserves the <span class="text-accent">Best Care</span></h1>
+
+          <p class="hero__text">
+            We're more than just a dental clinic. We offer a spa-like
+            experience designed to reduce anxiety and deliver pristine
+            results with advanced clinical precision.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#appointment" class="btn btn--primary">Book an Appointment</a>
+            <a href="tel:+919876543210" class="btn btn--secondary">
+              <img src="assets/icon-phone.svg" alt="" class="btn__icon" />
+              Call Now
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <img src="assets/hero-doctor-5065ad.png" alt="Professional portrait of the lead dentist at Dentrix Dental Care." />
+          <span class="hero__media-gradient" aria-hidden="true"></span>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="about__container">
+        <figure class="about__media">
+          <img src="assets/hero-doctor-5065ad.png" alt="Dr. Gowtham at Dentrix Dental Care." />
+          <span class="about__media-gradient" aria-hidden="true"></span>
+        </figure>
+
+        <div class="about__content">
+          <div class="about__intro">
+            <h2 class="section-title">Meet <span class="text-accent">Dr. Gowtham</span></h2>
+            <p class="about__subtitle">Dedicated to Creating Healthy, Confident Smiles</p>
+            <p class="about__text">
+              Dr. Gowtham is committed to providing patient-centered care in Madurai,
+              focusing on precision, comfort, and personalized treatment plans.
+              Whether it's a complex root canal or advanced dental implants, he
+              ensures every procedure is handled with clinical excellence and a gentle
+              touch.
+            </p>
+          </div>
+
+          <div class="trust">
+            <h3 class="trust__eyebrow">Why Patients Trust Dr. Gowtham</h3>
+            <ul class="trust__grid">
+              <li class="trust__item"><img src="assets/icon-plans.svg" alt="" /><span>Personalized plans</span></li>
+              <li class="trust__item"><img src="assets/icon-gentle.svg" alt="" /><span>Gentle care</span></li>
+              <li class="trust__item"><img src="assets/icon-equipment.svg" alt="" /><span>Modern equipment</span></li>
+              <li class="trust__item"><img src="assets/icon-communication.svg" alt="" /><span>Clear communication</span></li>
+              <li class="trust__item"><img src="assets/icon-health.svg" alt="" /><span>Long-term health</span></li>
+            </ul>
+          </div>
+
+          <blockquote class="quote">
+            <p class="quote__text">
+              "A healthy smile is more than good teeth—it's confidence,
+              comfort, and quality of life. My goal is to help every patient
+              achieve all three."
+            </p>
+            <footer class="quote__author">— Dr. Gowtham</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="services__container">
+        <div class="section-head">
+          <h3 class="section-eyebrow">Our Services</h3>
+          <h2 class="section-title">Dental Care, Tailored to You</h2>
+          <p class="section-text">
+            From routine cleanings to full-mouth rehabilitation, every treatment
+            is performed with advanced technology and a gentle, patient-first approach.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <span class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 3.5c-3 0-5 2-7.5 2C4 5.5 2.5 7 2.5 9c0 5 1.5 8.5 3 11.5.8 1.6 1.8 3 3.2 3 .8 0 1.4-.4 2-1.4.6-1 .8-2.3 1.3-3.6.5-1.3.9-1.8 2-1.8s1.5.5 2 1.8c.5 1.3.7 2.6 1.3 3.6.6 1 1.2 1.4 2 1.4 1.4 0 2.4-1.4 3.2-3 1.5-3 3-6.5 3-11.5 0-2-1.5-3.5-4-3.5-2.5 0-4.5-2-7.5-2z" fill="#00478D"/></svg>
+            </span>
+            <h3 class="service-card__title">Root Canal Therapy</h3>
+            <p class="service-card__text">Pain-free, single-visit root canal treatment that saves your natural tooth and restores comfort.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 4c-2.2 0-4 1.8-4 4 0 1.5.8 2.7 2 3.4V15a4 4 0 1 0 4 0v-3.6c1.2-.7 2-1.9 2-3.4 0-2.2-1.8-4-4-4zm-1 8.4V11h2v1.4c.6.3 1 .9 1 1.6a2 2 0 1 1-3 0c0-.7.4-1.3 1-1.6zM4 24c0-5 4.5-8 10-8s10 3 10 8v1H4v-1z" fill="#00478D"/></svg>
+            </span>
+            <h3 class="service-card__title">Dental Implants</h3>
+            <p class="service-card__text">Permanent, natural-looking tooth replacement with precision-guided implant placement.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 3.5c-2.8 0-4.5 2.2-4.5 5 0 1.6.7 3 1.8 4.1-.6 1.5-1.7 3-3.3 3.9-.5.3-.7.9-.6 1.4.2.6.8 1 1.4.9 1.4-.2 2.7-.9 3.7-1.7 1.6 1 3.5 1.5 5.5 1.5 3.5 0 6-1.8 6-5.5S17.5 3.5 14 3.5zm0 2c1.8 0 3 1.5 3 3.4 0 1.6-1 2.6-3 2.6s-3-1-3-2.6c0-1.9 1.2-3.4 3-3.4zm-6.5 13.5c-2.5.6-4.5 1.7-4.5 3.5v1.5c0 .8.7 1.5 1.5 1.5h13c1.9 0 3.5-1.6 3.5-3.5v-.5c0-2.2-2.2-3.4-5-3.9-.9 1-2 1.9-3 2.4-1 .5-1 .5-2 .9.5 1 1.5 1.6 2.5 2.1-2.7-.2-5-1.5-6-3.5z" fill="#00478D"/></svg>
+            </span>
+            <h3 class="service-card__title">Teeth Whitening</h3>
+            <p class="service-card__text">Professional, in-clinic whitening that brightens your smile by several shades safely.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M9 5c-2.5 0-4.5 2-4.5 4.5 0 1.8 1 3.2 2.5 3.9v7.1c0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.5v-3h1v3c0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.5v-7.1c1.5-.7 2.5-2.1 2.5-3.9C22.5 7 20.5 5 18 5c-.8 0-1.5.2-2 .5-.8-.3-1.7-.5-2.5-.5-.8 0-1.7.2-2.5.5-.5-.3-1.2-.5-2-.5zm0 2c.6 0 1 .4 1 1v5H8v-5c0-.6.4-1 1-1zm9 0c.6 0 1 .4 1 1v5h-2v-5c0-.6.4-1 1-1z" fill="#00478D"/></svg>
+            </span>
+            <h3 class="service-card__title">Invisible Aligners</h3>
+            <p class="service-card__text">Discreet, removable aligners to straighten teeth without the look or feel of metal braces.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 4c-2.5 0-4.5 2-4.5 4.5 0 1.7.9 3.1 2.3 3.9v8.6c0 .6.4 1 1 1h.4c.6 0 1-.4 1-1v-8.6c1.4-.8 2.3-2.2 2.3-3.9C18.5 6 16.5 4 14 4zm-1 4.5c0 .6-.4 1-1 1s-1-.4-1-1 .4-1 1-1 1 .4 1 1zm4 0c0 .6-.4 1-1 1s-1-.4-1-1 .4-1 1-1 1 .4 1 1zM4.5 21c-.3 0-.5.2-.5.5v2c0 .8.7 1.5 1.5 1.5h17c.8 0 1.5-.7 1.5-1.5v-2c0-.3-.2-.5-.5-.5h-1c-.3 0-.5.2-.5.5v1h-2v-1c0-.3-.2-.5-.5-.5h-1c-.3 0-.5.2-.5.5v1h-7v-1c0-.3-.2-.5-.5-.5h-1c-.3 0-.5.2-.5.5v1h-2v-1c0-.3-.2-.5-.5-.5h-1z" fill="#00478D"/></svg>
+            </span>
+            <h3 class="service-card__title">Crowns &amp; Bridges</h3>
+            <p class="service-card__text">Custom-crafted ceramic crowns and bridges that restore function and a flawless look.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-card__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M7 5c-1.7 0-3 1.3-3 3v4c0 1.7 1.3 3 3 3h1v5h2v-5h1v-2H7.5C6.7 13 6 12.3 6 11.5v-4C6 6.7 6.7 6 7.5 6S9 6.7 9 7.5v1h2v-1C11 6.3 9.7 5 8 5H7zm14 0h-1c-1.7 0-3 1.3-3 3v4c0 1.7 1.3 3 3 3h1v5h2v-5h1v-2h-1.5c-.8 0-1.5-.7-1.5-1.5v-4c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v1h2v-1c0-1.7-1.3-3-3-3z" fill="#00478D"/></svg>
+            </span>
+            <h3 class="service-card__title">Preventive Care</h3>
+            <p class="service-card__text">Routine cleanings, scaling, and screenings that keep small issues from becoming big ones.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="achievements">
+      <div class="achievements__container">
+        <div class="section-head">
+          <h3 class="section-eyebrow">Our Achievements</h3>
+          <h2 class="section-title">Results That Speak for Themselves</h2>
+        </div>
+        <div class="achievements__grid">
+          <div class="stat-card">
+            <span class="stat-card__number">10+</span>
+            <span class="stat-card__label">Years of Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">5,000+</span>
+            <span class="stat-card__label">Happy Patients</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">30+</span>
+            <span class="stat-card__label">Advanced Treatments</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__number">4.9/5</span>
+            <span class="stat-card__label">Patient Rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CHECK-UP BANNER ============ -->
+    <section class="banner">
+      <div class="banner__card">
+        <div class="banner__content">
+          <h2 class="banner__title">Complete Dental Check-up for Just <span class="text-teal">₹499</span></h2>
+          <ul class="banner__list">
+            <li class="banner__item"><img src="assets/icon-check.svg" alt="" class="banner__check" />Comprehensive Oral Exam</li>
+            <li class="banner__item"><img src="assets/icon-check.svg" alt="" class="banner__check" />Digital X-Ray (if required)</li>
+            <li class="banner__item"><img src="assets/icon-check.svg" alt="" class="banner__check" />Cavity &amp; Gum Health Screening</li>
+            <li class="banner__item"><img src="assets/icon-check.svg" alt="" class="banner__check" />Treatment Plan Consultation</li>
+            <li class="banner__item"><img src="assets/icon-check.svg" alt="" class="banner__check" />Oral Hygiene Guidance</li>
+          </ul>
+        </div>
+        <figure class="banner__media">
+          <img src="assets/checkup-banner-8d2076.png" alt="Dental check-up at Dentrix Dental Care." />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ APPOINTMENT FORM ============ -->
+    <section class="appointment" id="appointment">
+      <div class="appointment__container">
+        <div class="appointment__card">
+          <div class="appointment__info">
+            <h3 class="section-eyebrow">Book an Appointment</h3>
+            <h2 class="appointment__title">Reserve Your Visit Today</h2>
+            <p class="appointment__text">
+              Share your details and our care team will call you back within
+              a few hours to confirm your appointment at a time that suits you.
+            </p>
+            <ul class="appointment__contact">
+              <li>
+                <span class="appointment__contact-icon"><img src="assets/icon-phone.svg" alt="" /></span>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+              </li>
+              <li>
+                <span class="appointment__contact-icon"><img src="assets/icon-badge.svg" alt="" /></span>
+                <span>123 Health Avenue, Madurai, Tamil Nadu 625001</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="appointment__form" id="appointmentForm" novalidate>
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Ravi Kumar" autocomplete="name" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="e.g. ravi@example.com" autocomplete="email" required />
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 98765 43210" autocomplete="tel" required />
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--form" id="submitBtn">
+              <span class="submit-label">Book Appointment</span>
+              <span class="submit-spinner" aria-hidden="true"></span>
+            </button>
+
+            <p class="form-status form-status--success" id="formSuccess" role="status" hidden>
+              Thank you! Your appointment request has been received. Our team will contact you shortly.
+            </p>
+            <p class="form-status form-status--error" id="formError" role="alert" hidden>
+              Sorry, something went wrong. Please try again, or call us directly at +91 98765 43210.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PATIENT REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="reviews__container">
+        <div class="section-head">
+          <h3 class="section-eyebrow">Patient Reviews</h3>
+          <h2 class="section-title">What Our Patients Say</h2>
+          <p class="section-text">
+            Real experiences from real patients who trust us with their smiles every day.
+          </p>
+        </div>
+
+        <div class="reviews__grid">
+          <article class="review-card">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-card__text">
+              "Dr. Gowtham explained every step before my root canal. The procedure was
+              completely painless and I felt at ease the whole time. Truly premium care."
+            </p>
+            <footer class="review-card__author">
+              <span class="review-card__avatar">RP</span>
+              <div>
+                <strong>R. Priya</strong>
+                <span>Root Canal Treatment</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-card__text">
+              "I was nervous about getting an implant, but the team made the whole journey
+              smooth and comfortable. The clinic feels calm and very modern."
+            </p>
+            <footer class="review-card__author">
+              <span class="review-card__avatar">MA</span>
+              <div>
+                <strong>M. Arjun</strong>
+                <span>Dental Implant</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="review-card">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="review-card__text">
+              "Whitening made such a difference to my confidence. Gentle, quick, and the
+              results were amazing. Highly recommend Dentrix to everyone in Madurai."
+            </p>
+            <footer class="review-card__author">
+              <span class="review-card__avatar">SK</span>
+              <div>
+                <strong>S. Kavitha</strong>
+                <span>Teeth Whitening</span>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <div class="faq__container">
+        <div class="section-head">
+          <h3 class="section-eyebrow">FAQ</h3>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq__list">
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Is the ₹499 check-up a complete examination?
+              <span class="faq-item__chevron" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-item__answer">
+              Yes. It includes a comprehensive oral exam, digital X-ray (if required),
+              cavity and gum screening, a treatment plan consultation, and oral hygiene guidance.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              How do I book an appointment?
+              <span class="faq-item__chevron" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-item__answer">
+              Fill out the appointment form above and our team will call you back to confirm.
+              You can also call us directly at +91 98765 43210.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Is root canal treatment painful?
+              <span class="faq-item__chevron" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-item__answer">
+              Not with modern techniques. We use advanced anaesthesia and gentle techniques so
+              most patients feel little to no discomfort during the procedure.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              How long does a dental implant take?
+              <span class="faq-item__chevron" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-item__answer">
+              The implant placement itself is a single procedure. Full healing and the final
+              crown typically take about 3 to 6 months, depending on your individual case.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-item__question">
+              Do you offer payment plans or EMI options?
+              <span class="faq-item__chevron" aria-hidden="true"></span>
+            </summary>
+            <p class="faq-item__answer">
+              Yes. We offer flexible payment plans and EMI options for major treatments like
+              implants and orthodontics. Speak to our front desk for details.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <p class="footer__logo">Dentrix Dental Care</p>
+        <p class="footer__desc">
+          Elevating dental care in Madurai
+          with precision, comfort, and
+          premium aesthetics.
+        </p>
+      </div>
+
+      <nav class="footer__col" aria-label="Quick links">
+        <h4 class="footer__heading">Quick Links</h4>
+        <a href="#top" class="footer__link">Home</a>
+        <a href="#appointment" class="footer__link">Contact Us</a>
+        <a href="#" class="footer__link">Privacy Policy</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="Patient resources">
+        <h4 class="footer__heading">Patient Resources</h4>
+        <a href="#" class="footer__link">Terms of Service</a>
+        <a href="#" class="footer__link">Patient Portal</a>
+      </nav>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Visit Us</h4>
+        <p class="footer__address">123 Health Avenue, Madurai, Tamil Nadu, 625001</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2024 Dentrix Dental Care. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // ---- Google Apps Script Web App URL ----
+      var APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby--gCg6YL35Xgnl8eTBT57IeVvIZgjoVTT_ZWbgYvjnJ9J8Yvb8OtlYG_P293zoWpY/exec';
+
+      // ---- Mobile navigation ----
+      var navToggle = document.getElementById('navToggle');
+      var navLinks = document.getElementById('navLinks');
+
+      navToggle.addEventListener('click', function () {
+        var isOpen = navLinks.classList.toggle('nav__links--open');
+        navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      navLinks.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') {
+          navLinks.classList.remove('nav__links--open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // ---- FAQ accordion (native <details> enhancement) ----
+      var faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(function (item) {
+        item.addEventListener('toggle', function () {
+          item.classList.toggle('faq-item--open', item.open);
+        });
+      });
+
+      // ---- Appointment form -> Google Sheets ----
+      var form = document.getElementById('appointmentForm');
+      var submitBtn = document.getElementById('submitBtn');
+      var formSuccess = document.getElementById('formSuccess');
+      var formError = document.getElementById('formError');
+
+      function setLoading(isLoading) {
+        submitBtn.disabled = isLoading;
+        submitBtn.classList.toggle('is-loading', isLoading);
+      }
+
+      function hideStatus() {
+        formSuccess.hidden = true;
+        formError.hidden = true;
+      }
+
+      function showSuccess() {
+        formSuccess.hidden = false;
+        formError.hidden = true;
+      }
+
+      function showError() {
+        formSuccess.hidden = true;
+        formError.hidden = false;
+      }
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        hideStatus();
+
+        var name = document.getElementById('name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var phone = document.getElementById('phone').value.trim();
+
+        if (!name || !email || !phone) {
+          showError();
+          return;
+        }
+
+        setLoading(true);
+
+        var payload = new URLSearchParams();
+        payload.append('name', name);
+        payload.append('email', email);
+        payload.append('phone', phone);
+
+        fetch(APPS_SCRIPT_URL, {
+          method: 'POST',
+          redirect: 'follow',
+          body: payload
+        })
+          .then(function (response) {
+            return response.json();
+          })
+          .then(function (data) {
+            if (data && data.status === 'success') {
+              form.reset();
+              showSuccess();
+            } else {
+              showError();
+            }
+          })
+          .catch(function () {
+            showError();
+          })
+          .finally(function () {
+            setLoading(false);
+          });
+      });
+    })();
+  </script>
+</body>
+</html>
